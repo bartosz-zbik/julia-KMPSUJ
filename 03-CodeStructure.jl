@@ -193,8 +193,8 @@ function myadd(x, y)
 end
 
 # Type specifications
-musub(x::Int, y::Int) = x - y
-musub(x::Int16, y::Int16) = x - y
+mysub(x::Int, y::Int) = x - y
+mysub(x::Int16, y::Int16) = x - y
 
 # retyrn value specification
 mymul(x, y)::Float16 = x * y

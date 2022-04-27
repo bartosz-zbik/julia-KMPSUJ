@@ -29,7 +29,7 @@ a = [1, 3, 2] # Vector{Int64} (alias for Array{Int64, 1})
 a = ["a", 2, pi] # Vector{Any}
 a = 1:5 # UnitRange{Int64}
 a = "Hello" # String
-a = {1 => '1', 2 => '2'} # Dict{Int, Char}
+a = Dict(1 => '1', 2 => '2') # Dict{Int, Char}
 
 typeof(a) # return the type of a 
 
