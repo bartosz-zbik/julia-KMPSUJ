@@ -1,0 +1,6 @@
+Files:
+ - marki.txt
+ - perfumy.txt
+ - pogoda.txt
+can be found in polish matura exam 2019 (sybject: IT).
+
